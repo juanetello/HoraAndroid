@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juanet.hora.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="buttonClick"
+        android:textColor="#003456"
+        android:typeface="monospace"
+        android:text="Consulte la hora aqui!" />
+
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnHora"
+        android:layout_alignBottom="@+id/btnHora"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#003456"
+        android:typeface="monospace"
+        android:hint="Aqui va la hora"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img5"
+        />
+
+
+</LinearLayout>
